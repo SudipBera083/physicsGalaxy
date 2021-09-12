@@ -54,7 +54,10 @@ urlpatterns = [
     path('user_page',index_views.userPage,name="user_page"),
   
     
-
+    
+    url(r'^media/(?P<path>.*)$', serve,{'document_root':       settings.MEDIA_ROOT}), 
+    url(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT}),
+	
     url(r'^admin/', admin.site.urls),
    
     url('^media/(?P<path>.*)$',serve,{'document_root':settings.MEDIA_ROOT})
