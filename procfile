@@ -1,1 +1,1 @@
-web: gunicorn physicsGalaxy.wsgi --log-file -
+web: gunicorn physicsGalaxy.wsgi:apllication --log-file -
