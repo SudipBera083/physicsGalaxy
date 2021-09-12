@@ -113,9 +113,9 @@ pytube3==9.6.4
 PyTweening==1.0.3
 pytz==2020.5
 pywhatkit==3.9
-pywin32==300
-pywin32-ctypes==0.2.0
-pywinpty==0.5.7
+
+
+
 pyzmq==22.0.3
 qtconsole==5.1.0
 QtPy==1.9.0
