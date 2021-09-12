@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
+import django_heroku
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -25,7 +26,7 @@ SECRET_KEY = 'django-insecure-uxi1$+)j24ap6a))sm%e2)os_4dvrr)$e^@9pth)yc%lyq1l*0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -135,6 +136,7 @@ STATICFILES_DIRS = [
     BASE_DIR / 'quizes/static'
     ]
 
+django_heroku.settings(locals())
 
 
 MEDIA_ROOT = os.path.join(BASE_DIR,"media")
