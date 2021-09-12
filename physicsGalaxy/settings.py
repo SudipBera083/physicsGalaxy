@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-uxi1$+)j24ap6a))sm%e2)os_4dvrr)$e^@9pth)yc%lyq1l*0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','physicsgalaxy.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
