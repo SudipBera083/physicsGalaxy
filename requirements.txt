@@ -112,7 +112,8 @@ pytube3==9.6.4
 PyTweening==1.0.3
 pytz==2020.5
 pywhatkit==3.9
-
+waitress
+whitenoise
 
 
 pyzmq==22.0.3
