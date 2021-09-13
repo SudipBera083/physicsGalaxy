@@ -113,9 +113,6 @@ PyTweening==1.0.3
 pytz==2020.5
 pywhatkit==3.9
 waitress
-whitenoise
-
-
 pyzmq==22.0.3
 qtconsole==5.1.0
 QtPy==1.9.0
