@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT physicsGalaxy.wsgi:application
+web: gunicorn physicsGalaxy.wsgi
